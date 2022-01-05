@@ -20,7 +20,7 @@ spec:
                 source: demo
         spec:
             containers:
-                -   image: 219099013464.dkr.ecr.us-west-2.amazonaws.com/cool-chapel-microservice
+                -   image: 219099013464.dkr.ecr.us-west-2.amazonaws.com/cool-chapel-microservice:3
                     name: cool-chapel-microservice
                     ports:
                         -   name: web
